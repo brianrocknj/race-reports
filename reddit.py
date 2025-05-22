@@ -1,7 +1,9 @@
 import pandas as pd
 import praw
 import os
+from datetime import datetime
 
+logfile = 'log.csv'
 fname = 'Reports.csv'
 CLIENT_ID = os.environ['RACE_REPORT_CLIENT_ID']
 CLIENT_SECRET = os.environ['RACE_REPORT_CLIENT_SECRET']
@@ -16,7 +18,7 @@ subs = ['AdvancedRunning', 'Marathon_Training']
 for sub in subs:
     for post in reddit.subreddit(sub).search('Race Report'):
         if post.id in df['id'].values:
-            print('Already got this one.')
+            # print('Already got this one.')
             continue
          
         report = {
@@ -34,5 +36,14 @@ for sub in subs:
 
 reports = pd.DataFrame(reports)
 reports['date'] = pd.to_datetime(reports['date'], utc=True, unit='s', origin='unix')
+reports = reports.sample(10)
+
+log = pd.DataFrame({'Date' : datetime.today(),
+                    'Count' : len(reports),
+                    'Ids' : list(reports['id'].values)})
+
 reports.to_csv(fname, mode='a', index=False, header=False)
-print(reports)
+log.to_csv(logfile, mode='a', index=False, header=False)
+
+# print(reports)
+# print(log)
