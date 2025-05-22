@@ -8,6 +8,8 @@ on:
 jobs:
   checkreddit:
     runs-on: ubuntu-latest
+    permissions:
+        contents: write
     steps:
       - name: checkout repo content
         uses: actions/checkout@v3 # checkout the repository content to github runner.
@@ -22,8 +24,6 @@ jobs:
         env:
             RACE_REPORT_CLIENT_ID: ${{ secrets.RACE_REPORT_CLIENT_ID}}
             RACE_REPORT_CLIENT_SECRET: ${{ secrets.RACE_REPORT_CLIENT_SECRET }}
-        permissions:
-            contents: write
         run: |
           python reddit.py
           git config user.name github-actions
