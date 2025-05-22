@@ -2,7 +2,7 @@ name: fetch new reports
 
 on:
   schedule:
-    - cron: "0 7 * * *"    #runs at 11:30 UTC everyday
+    - cron: "30 14 * * *"    #runs at 11:30 UTC everyday
 
 jobs:
   getdataandrefreshmap:
