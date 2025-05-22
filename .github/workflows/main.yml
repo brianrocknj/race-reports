@@ -19,6 +19,9 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: execute py script
+        env:
+            RACE_REPORT_CLIENT_ID: ${{ secrets.RACE_REPORT_CLIENT_ID}}
+            RACE_REPORT_CLIENT_SECRET: ${{ secrets.RACE_REPORT_CLIENT_SECRET }}
         run: |
           python reddit.py
           git config user.name github-actions
