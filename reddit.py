@@ -36,7 +36,6 @@ for sub in subs:
 
 reports = pd.DataFrame(reports)
 reports['date'] = pd.to_datetime(reports['date'], utc=True, unit='s', origin='unix')
-reports = reports.sample(10)
 
 log = pd.DataFrame({'Date' : datetime.today(),
                     'Count' : len(reports),
