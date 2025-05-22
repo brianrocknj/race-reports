@@ -3,6 +3,7 @@ name: fetch new reports
 on:
   schedule:
     - cron: "0 7 * * *"    #runs at 2AM EST every day
+  workflow_dispatch:
 
 jobs:
   checkreddit:
