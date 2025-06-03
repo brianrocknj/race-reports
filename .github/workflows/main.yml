@@ -32,7 +32,7 @@ jobs:
           git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: commit and push
-        if: steps.verify_diff.outputs.changed == 'true
+        if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
