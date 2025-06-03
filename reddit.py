@@ -34,15 +34,18 @@ for sub in subs:
     
         reports.append(report)
 
-reports = pd.DataFrame(reports)
-reports['date'] = pd.to_datetime(reports['date'], utc=True, unit='s', origin='unix')
-
-log = pd.DataFrame({'Date' : datetime.today(),
-                    'Count' : len(reports),
-                    'Ids' : list(reports['id'].values)})
-
-reports.to_csv(fname, mode='a', index=False, header=False)
-log.to_csv(logfile, mode='a', index=False, header=False)
+if len(reports) < 0:
+    reports = pd.DataFrame(reports)
+    reports['date'] = pd.to_datetime(reports['date'], utc=True, unit='s', origin='unix')
+    
+    log = pd.DataFrame({'Date' : datetime.today(),
+                        'Count' : len(reports),
+                        'Ids' : list(reports['id'].values)})
+    
+    reports.to_csv(fname, mode='a', index=False, header=False)
+    log.to_csv(logfile, mode='a', index=False, header=False)
+else:
+    print('No new reports to save.')
 
 # print(reports)
 # print(log)
