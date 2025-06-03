@@ -26,6 +26,14 @@ jobs:
             RACE_REPORT_CLIENT_SECRET: ${{ secrets.RACE_REPORT_CLIENT_SECRET }}
         run: |
           python reddit.py
+      - name: check for changes
+        id: verify_diff
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: commit and push
+        if: steps.verify_diff.outputs.changed == 'true
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
