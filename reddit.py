@@ -34,7 +34,7 @@ for sub in subs:
     
         reports.append(report)
 
-if len(reports) < 0:
+if len(reports) > 0:
     reports = pd.DataFrame(reports)
     reports['date'] = pd.to_datetime(reports['date'], utc=True, unit='s', origin='unix')
     
