@@ -63,10 +63,15 @@ for i, report in reports.iterrows():
     print(f"Already summarized this race report ({report['id']}). Skipping.")
     continue
 
-  response = client.models.generate_content(
-    model=model,
-    contents=prompt + ' - ' + report['text']
-  )
+  try:
+    response = client.models.generate_content(
+      model=model,
+      contents=prompt + ' - ' + report['text']
+    )
+  except:
+    print(response.text)
+    time.sleep(60)
+    continue  
 
   # print(response.text)
   
