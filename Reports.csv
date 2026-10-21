@@ -254388,3 +254388,235 @@ I tried to push for a Sub 2:54, but the legs weren't prepared, so I accepted a g
 * Possibly need to implement some more strength training, and lose a couple more Kgs to speed up even more.
 
 **TL:DR** transitioned from Pfitz to John Davis for a 5-min PB in Amsterdam Marathon, achieving the goal I gave myself and going close to reaching a stretch goal on a challenging weather day."
+1xatdt7,2026-10-20 14:18:31+00:00,Formal-War5229,,AdvancedRunning,/r/AdvancedRunning/comments/1xatdt7/race_report_amsterdam_marathon_lots_of_nsa_numbers/,Race report: Amsterdam Marathon + Lots of NSA numbers,"**UPDATE: Amsterdam Marathon 2026, and what I learned about overcooking**
+
+# Race Information
+
+* **Name:** TCS Amsterdam Marathon
+* **Date:** October 18, 2026
+* **Distance:** 26.2 miles (42.2 km)
+* **Location:** Amsterdam, Netherlands
+* **Website:** [https://www.tcsamsterdammarathon.eu/](https://www.tcsamsterdammarathon.eu/)
+* **Strava:** You may ask in DMs
+* **Time:** 2:55:02 (official), Garmin 2:53:17
+
+# Goals
+
+|**Goal**|**Description**|**Completed?**|
+|:-|:-|:-|
+|A|Run on feel, have fun, finish strong without a death march|*Yes*|
+
+# Splits
+
+|**Km**|**Split**|**Avg HR**|
+|:-|:-|:-|
+|1|4:12|157|
+|2|4:17|166|
+|3|4:16|168|
+|4|4:32 (had to stop and pee)|169|
+|5|4:05|172|
+|6|4:07|171|
+|7|4:09|170|
+|8|4:06|171|
+|9|4:03|172|
+|10|4:10|171|
+|11|4:10|170|
+|12|4:10|169|
+|13|4:06|170|
+|14|4:10|169|
+|15|4:04|171|
+|16|4:12|169|
+|17|4:08|170|
+|18|4:05|170|
+|19|4:04|170|
+|20|4:04|171|
+|21|4:10|170|
+|22|4:09|168|
+|23|4:06|169|
+|24|4:05|170|
+|25|4:07|168|
+|26|4:06|168|
+|27|4:02|169|
+|28|4:06|168|
+|29|4:07|169|
+|30|4:02|168|
+|31|4:01|170|
+|32|4:03|169|
+|33|4:02|171|
+|34|4:04|170|
+|35|4:00|171|
+|36|4:13 (stuck behind pacers)|169|
+|37|3:58|170|
+|38|4:03|171|
+|39|4:03|169|
+|40|4:01|169|
+|41|4:01|171|
+|42|3:58|172|
+|Last 631 m|2:27 (3:54/km)|172|
+
+Splits are Garmin auto-laps. The watch measured 42.6 km, so they read a few seconds per km faster than the real pace. Halves (scaled to the real distance) were 1:28:37 / 1:26:29, so a 2-minute negative split. 80 m of total ascent.
+
+# Training
+
+DISCLAIMER: I used AI to analyse my Garmin data (including a full export of every activity since December) and to help draft this report.
+
+**The last four weeks.** After Copenhagen I went all in on marathon-specific work. I cut the ST sessions to 2 a week and put quality into the long runs.
+
+|**Week of**|**Run km**|**Notes**|
+|:-|:-|:-|
+|21 Sep|122|Progressive LR of 35 km, cutting down to 3:45 pace. Felt incredible|
+|28 Sep|118|5x5 km at MP+ (3:50/km), 33 km total. Called it halfway through the last rep, completely gassed|
+|5 Oct|76|Taper. Everything felt hard|
+|12 Oct|42 + race|Taper + Amsterdam|
+
+As I wrote in a (now deleted) thread here last week, my fitness seemed to fall off a cliff about 3 weeks out after racing Copenhagen Half Marathon 2026 (report [HERE](https://www.reddit.com/r/AdvancedRunning/comments/1wxjlfc/race_report_copenhagen_half_marathon_2026_1_year/)):
+
+* Easy paces went up 20–25 s/km at the same HR.
+* VO2max dropped 2 points on both Garmin and Runalyze.
+* My throat was sore and thick on and off, plus a general weariness.
+* I wasn't really sick, but I wasn't well either.
+
+Thanks to everyone who replied with advice on reframing goals. I took it to heart.
+
+**So what happened? I dug into the data in the days after the race, and it was an eye-opener.** In the moment, it's easy to lose track of the bigger trends and miss that you're overcooking, albeit not by ""large amounts"". But I guess it all adds up in the end.
+
+In May I did a (second) lab test: LT1 at 161 bpm, LT2 at 175 bpm (4 mmol), to follow up on the one I did in November 2025. On that curve, the NSM range of 2–3.5 mmol sits at about 164–173 bpm. In hindsight I should have capped my reps at 172 bpm for 1 km reps, 171 for 2 km reps and 169 for 3 km reps. That's all at or below 88% of my estimated max of 195, just under the NSM rule of 89%. The 3 km cap is lowest because 10+ minutes near 174 puts me at about 4 mmol. AI counted 75 NSM sessions since December. I think a few are missing, because I never renamed some of the treadmill workouts.
+
+* **Only 13 of 75 sessions (17%) stayed within the caps.** By ""within"" I mean under 10% of rep time above the cap outlined above, and never more than 30 s in a row above LT2.
+* **41% of all my sub-threshold time was above the cap:** 1,070 of 2,615 minutes of reps. The median session spent about 14.5 minutes above the cap.
+* **13% of my rep time was above LT2** (335 minutes), and 41 of the 75 sessions spent more than a minute there.
+
+|**Rep type**|**Sessions**|**Within caps**|**Time above cap (median)**|**Above LT2 (median)**|
+|:-|:-|:-|:-|:-|
+|1 km (cap 172)|26|6|38%, 13 min|3.1 min|
+|2 km (cap 171)|20|1|43%, 14 min|1.2 min|
+|3 km (cap 169)|29|6|54%, 18 min|0.3 min|
+
+The 3 km reps rarely went past LT2, but they spent the most time just under it (170–174). That's most likely threshold work, not sub-threshold. The 1 km reps were the ones that most often went past LT2. Even using the plain NSM rule (89% of max = 174 for all reps), only 34 of 75 sessions pass.
+
+* **It got worse after the summer.** Remember how I wrote in the Copenhagen report that I consciously pushed my ST paces up after the vacation? The rep paces show it clearly. These are my outdoor sessions only (GPS); I left out the treadmill sessions, because the watch's pace there is unreliable, so multiple treadmill sessions are missing:
+
+|**Rep**|**Period**|**Sessions**|**Avg rep pace (median session)**|**HR at end of last rep (median)**|
+|:-|:-|:-|:-|:-|
+|1 km|Dec–Mar|3|3:42|175|
+|1 km|Apr–Jun|3|3:40|176|
+|1 km|Jul–Oct|7|3:36|178|
+|2 km|Dec–Mar|2|3:45|172|
+|2 km|Apr–Jun|7|3:45|174|
+|2 km|Jul–Oct|6|3:40|176|
+|3 km|Dec–Mar|6|3:50|169|
+|3 km|Apr–Jun|5|3:49|171|
+|3 km|Jul–Oct|8|3:44|178|
+
+So I got 5–6 s/km faster on every rep type, but HR at the end of the last rep went up by 3–8 bpm. On the 3 km reps I went from finishing at 169 in winter to 178 in the autumn, which is above my LT2. I guess my fitness and recovery weren't keeping up with the paces. it should be noted that this is top hr on last rep. not average hr during last rep.
+
+|**Period**|**Sessions**|**Within caps**|**Time above cap (median)**|**Sessions >1 min above LT2**|
+|:-|:-|:-|:-|:-|
+|Dec–Mar|30|11|39%|13|
+|Apr–Jun|18|1|38%|8|
+|Jul–Oct|27|1|53%|20|
+
+* **Recovery markers.** HRV and resting HR stayed within my normal range the whole time, so there was nothing alarming there. But Garmin's training readiness sat at 10–30 most days from mid-July to early October. Not sure it says much, though, since it's only a watch and can't really tell how I was feeling.
+* **The easy running was fine.** Easy pace improved from about 5:30 to 5:00–5:05/km at the same HR (136–142) over the year.
+
+My takeaway: I was running threshold three times a week while calling it sub-threshold, pushed the volume to 120 km and stacked three marathons and two hard halves into one year. The method works (I'm faster than ever), but I ran it too hot for too long and flew too close to the sun in my final prep. In the end the body most likely said stop. In hindsight, the mental burnout I mentioned in the Copenhagen report was probably part of the same picture. I know from a stress fracture a few years ago that mental burnout, at least for me, is the canary in the coal mine that I'm overstretching and risking injury. But I guess hindsight is 20/20.
+
+# Pre-race
+
+Given everything above, a PB attempt was off the table. I decided to run on vibes: no time goal, no PacePro, just feel. That was hard to accept beforehand, because I've always gone into races with some kind of performance goal, and I wasn't exactly stoked about the race. But it turned out to be exactly the right call.
+
+It also gave me the opportunity to fully experience Amsterdam, a city I had never been to before. Neither friends nor my partner joined me on this trip, so it was a lovely solo travel experience. I didn't feel any anxiety putting down 25k+ steps the day before the marathon, walking around the city, enjoying the sights and the local food and just having a really good time (the only thing missing was a beer or two…).
+
+On race day I woke up at my usual marathon time, 3 hours before the gun. I downed my Nomio shot, sipped some coffee and a caffeinated Maurten drink mix, and ate a light breakfast at the hotel. My left hip has felt quite tight over the last few weeks, and some deep hip flexors have felt a bit locked up, which I've noticed especially when doing strides. So I spent some extra time that morning on very light strength and mobility activation. I then took the subway to the start area, arrived around 1.5 hours before the gun and handed in my bag. Unfortunately I had trouble finding a good place to warm up. There were people everywhere and it was my first time there, so the warm-up left a lot to be desired: 500 m of jogging and some strides.
+
+Anyway, I found my place in the corral. 3 minutes before the gun went off, the heavens opened and it started pouring. With 9 °C, conditions were almost perfect temperature-wise, albeit a bit gnarly because of the heavy rain. And then the gun went off!
+
+# Race
+
+For the first 15 km my feelings about the race were mixed. The mobility routine had paid off: for the first time in a while, I could move without any major restrictions in my hip flexors. Amsterdam was out in droves despite the weather, cheering the runners on. Otherwise those first 15 km were a mix of boredom and a feeling of working decently, but not too hard. Everywhere the crowd was screaming my name, and I made sure to scream back at them. I was finally starting to enjoy the race!
+
+When we started running along the river heading south, I finally hit my groove. I kept a close eye on the watch, especially my HR. It was glued to 168–170 bpm, and I was passing people the whole time while still feeling good. Shoutout to the drum band around the 21–22 km mark: you gave me goosebumps all over, running in the same cadence as the beat.
+
+In the second half I started squeezing a bit. Every 5 km from 25 km onwards was faster than the one before (4:07 → 4:06 → 4:05). I especially remember 25 km as the point where I started feeling stronger and stronger the longer the race went on. Basically from start to finish I was passing people. I was screaming back at the crowds and trying to cheer my fellow runners on. At 35 km I caught the first sub-3 pacer group, which had started way ahead of me. Unfortunately I got stuck behind them for a while, which cost me some time (km 36 was my slowest of the second half at 4:13). Over the last 2 km I put the pedal to the metal and finished at about 4:00/km with plenty of energy left in the tank. It's a very good feeling to finish a marathon strong, and it hasn't happened that often, at least for me. In the last 200 meters to the finish I was screaming out of hype and waving my arms all over the place, out of pure joy over a race effort I was really proud of.
+
+# Post-race
+
+Season over. No Amsterdam PB, but I got a strong, controlled marathon out of a body that had felt like crap for three weeks. I'll take that. Overall it felt good to get at least some confirmation in this race that the engine was still somewhat intact, despite being off in terms of paces and effort for weeks. The heartrate more or less being glued to exactly the same numbers for the whole race without any drift at all anywhere is also a testiment I think to the fact that I was definately well bellow my limit for most of the race. And since the race ended early in the day and my flight wasn't until 9 PM, I had plenty of time to freshen up and go out for beers and food in the city. Which I of course gladly did.
+
+The plan for the winter changes slightly from what I wrote in the Copenhagen report. Still bike- and strength-heavy, but probably with a structured NSM base phase built to fix the mistakes above. Very high level:
+
+* **HR caps instead of pace targets.** Time-based reps (3 min, 6–8 min, 10–12 min) with caps of 172, 171 and 169 bpm. I'll really try to put my ego back in the closet and intentionally undercook sessions. Starting speeds are set from my own sessions that actually stayed under the caps, which means 0.3–0.6 km/h slower than this summer. The speeds only go up when the HR comes down. For the first time ever, I'll also train by time instead of pace.
+* **Lower volume.** About 85–95 km a week (my average this year is 97 km/week), with a deload every 4th week and a fixed-speed treadmill benchmark (compare HR) to track progress without racing workouts.
+* **More bike.** I want to transition more into biking next year. The plan is easy rides 1–2 times a week at first, then gradually some quality bike sessions on the trainer after a couple of cycles. I also have plans to try some gravel racing next year during summer.
+* **Truly easy days** (I already stuck to this, always running them on HR), Sunday off running as I've done these past years, and easy Zwift for extra aerobic volume.
+* **Recovery first.** Proper recovery weeks now (every 4th one), and an extra one if I'm still flat. If the weariness doesn't go away, I'll get blood work done.
+
+Then we'll see about Boston next spring, as a victory lap or a proper prep. I've said it before in other threads and to the people around me irl: no more marathons for me. I want to focus on shorter races and broaden my horizons in running. Marathons take up a bit too much time in training, and for me personally they become a bigger emotional investment in the result. You have to train so much more intently for the distance, and they often turn into the season highlight, both in money and time invested. Afterwards they wreck my body, and I have to spend quite a lot of time regaining my will to train, my fitness and my physical recovery (my body is really sore right now). Shorter distances are much more forgiving in terms of time-investment and recovery.
+
+As a personal side note, I'll also try to cleanse my social media algorithms a bit. They're currently infested with runfluencers. I know comparison is the thief of joy, but I can never resist the urge to try to ""beat"" these imaginary people on the internet in results and progress. I guess I'm a bit competitive at heart, which doesn't help with my obvious tendency to reach a bit too high.
+
+Thank you for reading this far!
+
+Made with a new [race report generator](http://sfdavis.com/racereports/) created by u/herumph."
+1xbfbt9,2026-10-21 06:09:02+00:00,maxmo_3,,Marathon_Training,/r/Marathon_Training/comments/1xbfbt9/tcs_amsterdam_marathon_race_report/,TCS Amsterdam Marathon race report,"**TCS Amsterdam Marathon**
+
+Usually im just reading on here, but since I love reading the race reports, I've decided to write up my own.
+
+When I signed up for this marathon I set my goal time at 2:55, which already felt pretty ambitious coming from a 3:36.  
+That said, the 3:36 was run at a coastal marathon with loads of wind last year, so there should be some room for improvement there.  
+During training it became clear that 2:55 might be a bit conservative and that 2:48 on a great day could be within reach..
+
+Maybe some more context here about that jump. That marathon was in october 2025, the next target at that point was a marathon in April, sadly due to illnes I missed both a half marathon and the april marathon. Ideally I would have already improved my PR here, but it wasn't meant to be.
+
+Preparation was pretty ideal up until the last 2 weeks, when illness came along and I missed the final long run with marathon-pace blocks. But one missed training weekend, compared to all the training before it, shouldn't make a difference. At least that's what I kept telling myself during the 2 taper weeks ;)  
+The months before I worked my volume up and I peaked at 99km. Training weeks usually consisting of 2 quality sessions and a long run, filled up with easy work.   
+From my ilness in march untill the Amsterdam Marathon I ran 2550km. Was able to consistently train and basicly never missed a run.
+
+We'd managed to get an apartment about a kilometre from the Olympic Stadium, which was ideal for Sunday morning: a short warm-up jog to the stadium and straight into the start pen!  
+Only about 10 minutes of waiting before the start, which wasn't bad at all, though a heavy shower in those last 5 minutes made it cold.
+
+**0–10 km**  
+Since it was my first big marathon (both my previous ones were local), I had expected a huge amount of people in the way at the start, and I'd allowed for the possibility of not finding a rhythm in the first few k's. Luckily it wasn't too bad, and I could run my pace pretty much right from the start.  
+With all the rain, I had to hop around puddles every now and then, made more of a challenge by the amount of people in front of you.  
+No real groups yet in the first k's, but the 4:00/km pace felt fine and comfortable.  
+The gel at 25 minutes went down fine, and the caffeine shot at 8 km was no problem either.  
+The less pleasant parts: I started feeling like I needed to pee, and my left ankle began to hurt because a lace was tied too tight..
+
+**10–20 km**  
+On the first stretch along the Amstel, the first groups clearly started to form. I picked one and settled in nicely with them.  
+Unfortunately the need to pee hadn't gone away, so it just had to come out. At 14 km I decided to go ahead and do it at the side of the road. A shame, because the group obviously doesn't wait for that!  
+2 km later I also decided to re-tie that lace, hoping the pain, at that point pretty rough pain, would stop.  
+Despite the stops, I kept running the pace, that I picked up slightly since the start, comfortably and felt strong.  
+3:55 on the watch didn't feel like work, and my heart rate stayed spot on too.
+
+**20–30 km**  
+The stretch with the most headwind. Luckily I'd made it back into a group running my pace, so I didn't have to do this part alone.  
+The pace kept feeling controlled, and the last 2 gels went down without any trouble.  
+At 28 km I took the 2nd caffeine shot, and that went down reasonably well too. I've never been able to tolerate caffeine gels, but luckily this stuff is easy to drink.  
+Slowly some 'pain' crept into my quads, but nothing to worry about yet.  
+Pace still steady, slowly getting faster but not by much. The goal was to negative split, but also keep it pretty even to not blow up!
+
+**30–42.2 km**  
+A few more k's of headwind, but nothing extreme (looking back at footage the wind might have been harder than I personally noticed at these points). After the Amstel, the group more or less broke up. It turned into running from one person to the next, and getting passed every now and then.  
+The pace is holding up well, but my quads keep getting more painfull. Is this going to become a problem later?  
+The upside of sore quads is that the ankle pain from the lace fades away..  
+Took another gel at 30, and at 36 I still manage to get one down, so fuelling is going great!  
+From 38 km it becomes a fight. A stitch in my side forces me to really breathe through it (maybe from the fuelling after all? I don't know), and my quads are starting to protest heavily too. Keep running, only 15 minutes left.. 8 minutes left..  
+The stadium lights come into view, the pace is holding, and I can even 'kick' over the final metres!
+
+Finished in a beautiful time of ... **2:47:21!**
+
+What a race, and in the end I managed to pace it perfectly.
+
+[Splits from the official result](https://preview.redd.it/be8vglg7hrwh1.png?width=328&format=png&auto=webp&s=2aa4429d67cc0942f644d9e83eadc093e479bc03)
+
+1:24:16 first half  
+1:23:05 second half
+
+Super happy and proud with this result!
+
+Beforehand I knew that splits from the watch would differ from the official time, but still this was something that was pretty weird to deal with.   
+On my watch I barely touched a K above 4.00, something I need to keep an eye on better next race.  
+Also the pain in my quads was very new to me, not a single training run was like that.   
+I dont think they were near cramping, but simply in pain from the continues impact I guess.   
+In the end both those learning points don't matter to much to me because the result is so good! On to the next one!"
